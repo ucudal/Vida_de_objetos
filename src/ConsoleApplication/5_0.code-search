@@ -1,0 +1,19 @@
+# Query: 5.0
+# ContextLines: 1
+
+3 results - 3 files
+
+.vscode\launch.json:
+  12              // If you have changed target frameworks, make sure to update the program path.
+  13:             "program": "${workspaceFolder}/Vida_de_objetos/src/ConsoleApplication/bin/Debug/net6.0/ConsoleApplication.dll",
+  14              "args": [],
+
+Vida_de_objetos\src\ClassLibrary\ClassLibrary.csproj:
+  3    <PropertyGroup>
+  4:     <TargetFramework>net6.0</TargetFramework>
+  5    </PropertyGroup>
+
+Vida_de_objetos\src\ConsoleApplication\ConsoleApplication.csproj:
+  4      <OutputType>Exe</OutputType>
+  5:     <TargetFramework>net6.0</TargetFramework>
+  6    </PropertyGroup>
